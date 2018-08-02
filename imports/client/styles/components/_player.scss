@@ -1,0 +1,18 @@
+.player {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+    &__name {
+        font-weight: 300;
+        font-size: 1.8rem;
+    }
+    &__stats {
+        font-size: 1.3rem;
+        font-style: italic;
+        font-weight: 300;
+    }
+    &__actions {
+        flex-shrink: 0;
+    }
+}
